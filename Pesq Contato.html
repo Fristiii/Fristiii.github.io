@@ -1,0 +1,148 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+      <title>Contato</title>
+      <link rel="icon" type="image/x-icon" href="Pesqfavicon.ico">
+        <style>
+            .logo img{
+                  border-radius: 5px;
+                  padding: 5px;
+                 width: 100px;
+                }
+                .menu{
+                 height: 100px;
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 padding: 10px 20px;
+                 background-color: #333;
+                }
+               .items-menu li{
+                 display:inline-block;
+                 list-style-type:none;
+                }
+                .items-menu li a{
+                  color: white;
+                  padding: 5px 10px;
+                  text-decoration: none;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                }
+                .menu ul li:hover{
+                  border-bottom: 1px solid #fff;
+                  font-size: 18px;
+                }
+                .banner{
+                  background-color: #333;
+                  height: 600px;
+                  display:flex;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  font-size:30px;
+                  color:white;
+                }
+                .flexbox{
+                    margin:10px;
+                    padding:200px;
+                }
+                .rodape{
+                 height: 150px;
+                 background-color: #333;
+                 justify-content: space-between;
+                 align-items: center;
+                 padding: 10px 20px;
+                }
+                .items-rodape li{
+                  list-style-type:none;
+                }
+                .items-rodape li a{
+                  color: white;
+                  padding: 5px 10px;
+                  text-decoration: none;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+                .items-rodape2{
+                  border-left:350px solid #333;
+                }
+                .items-rodape2 li{
+                  display:inline-block;
+                  list-style-type:none;
+                }
+                .items-rodape2 li a{
+                  color: white;
+                  padding: 5px 10px;
+                  text-decoration:none;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+                hr{
+                    display: block;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    border-style: inset;
+                    border-width: 1px;
+                }
+                .mensagem{
+                    padding:0;
+                    height:100px;
+                }
+                .hr{
+                  height:10px;
+                  background-color: #333;
+                }
+                *{
+                  margin:0;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="logo">
+                <img src="pesq-logo.png">
+            </div>
+            <ul class="items-menu">
+                <li><a href="pesq.html">Inicio</a></li>
+                <li><a href="pesq-pesquisa.html">Pesquisa</a></li>
+                <li><a href="pesq-produto.html">Produto</a></li>
+                <li><a href="Pesq Contato.html">Contato</a></li>
+               </ul>
+      </div>
+      <div class="hr"><hr></div>
+      <div class="banner">
+          <div class="flexbox"></div>
+          <form>
+            <label for="a">Assunto:</label>
+            <input list="contato" required><br><br>
+            <label for="fname">Nome:</label>
+            <input type="text" required><br><br>
+            <label for="fname">Sobrenome:</label>
+            <input type="text"><br><br>
+            <label for="fname">Email:</label>
+            <input type="email" required><br><br>
+            <label for="fname">Celular:</label>
+            <input type="tel" required><br><br>
+            <label for="fname">Mensagem:</label><br>
+            <textarea rows="4" cols="50"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+          <datalist id="contato">
+              <option value="Produto"></option>
+              <option value="Site"></option>
+              <option value="Atendimento"></option>
+          </datalist>
+      </div>
+      <div class="hr"><hr></div>
+      <div class="rodape">
+        <ul class="items-rodape2">
+          <a href=""><li>Twitter</a></li>
+          <a href=""><li>Youtube</a></li>
+          <a href=""><li>GitHub</a></li>
+          <a href=""><li>LinkedIn</a></li>
+          </ul>
+        <ul class="items-rodape">
+          <a href=""><li>Starlight 2023-2023</a></li>
+          <a href=""><li>Termos e Politica</a></li>
+          <a href=""><li>Politica de Privacidade</a></li>
+          <a href=""><li>Diretrizes da Marca</a></li>
+        </ul>
+      </div>
+    </body>
+    </html>
